@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'datenchronist',
-  author: 'datanchronist',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'Datenchronist - Webpage',
+  title: 'Datenchronist',
+  author: 'Datenchronist',
+  email: 'datenchronist@hands.team',
+  link: 'https://datenchronist.vercel.app',
+  description: 'datenchronist',
   lang: 'de-DE', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Europe/Berlin', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -18,9 +18,9 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/datenchronist-de',
+  socialLink: '#',
   seo: {
-    keywords: ['Daten','Chronist','Datenchronist'],
+    keywords: ['Team Hands', 'Datenchronist', 'Team'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
